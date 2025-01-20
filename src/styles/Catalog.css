@@ -1,0 +1,49 @@
+.catalog-container {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  
+  align-items: center;
+  text-align: center;
+  color: rgb(7, 7, 7);
+}
+
+.catalog {
+    padding: 16px;
+  }
+  
+  .catalog h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .catalog-section {
+    margin-bottom: 32px;
+  }
+  
+  .catalog-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .movie-card {
+    flex: 1 1 calc(33.333% - 16px); /* Tres tarjetas por fila */
+    max-width: calc(33.333% - 16px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,121 @@
+/* Aplicar el mismo fondo que la página de Home */
+.transaction-form-container {
+  padding: 20px;
+  margin: 0 auto;
+  background-image: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+  justify-content: flex-start; /* Comienza desde el top */
+  position: relative; /* Posición para que el footer quede en el flujo normal */
+}
+
+/* Contenedor para el contenido principal (división izquierda/derecha) */
+.transaction-content {
+  display: flex;
+  justify-content: space-between; /* Para poner la información a la izquierda y el formulario a la derecha */
+  gap: 20px; /* Espacio entre los dos */
+  flex: 1; /* Hace que ocupe el espacio restante */
+  margin-bottom: 40px; /* Añadir espacio debajo antes del footer */
+}
+
+/* Contenedor para la información de la película */
+.media-info {
+  flex: 1; /* Ocupa el espacio proporcional */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.media-info h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.media-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.media-info iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Estilos del formulario de transacción */
+.transaction-form {
+  flex: 0 0 400px; /* Limitar el ancho del formulario */
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transaction-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.transaction-form input,
+.transaction-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Opciones de método de pago alineadas horizontalmente */
+.payment-method {
+  display: flex;
+  justify-content: space-between; /* Distribuir horizontalmente */
+  margin-bottom: 20px;
+}
+
+.payment-method label {
+  display: flex;
+  align-items: center; /* Alinear texto y checkbox */
+  gap: 10px;
+}
+
+.payment-method input[type="radio"] {
+  width: auto; /* Tamaño adecuado del checkbox */
+}
+
+/* Botón de envío */
+.transaction-form button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-form button:hover {
+  background-color: #e64a19;
+}
+
+
