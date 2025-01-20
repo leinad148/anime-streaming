@@ -2,7 +2,7 @@ import React from 'react';
 import { series } from '../data/series';
 import MediaCard from '../components/MediaCard';
 import '../styles/Catalog.css';
-import Footer from '../components/Footer';  // Importar el componente Footer
+import Footer from '../components/Footer';  
 
 const Series = () => {
   return (

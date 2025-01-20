@@ -14,16 +14,16 @@ function App() {
       <div className="App">
         {/* Header que estará disponible en todas las páginas */}
         <header className="home-header">
-          <div className="logo">
+          <div className="home-header__logo">
             <a href="/">AniStream.net</a>
           </div>
-          <nav className="nav-links">
-            <a href="/" className="nav-button">Inicio</a>
-            <a href="/catalog/series" className="nav-button">Series</a>
-            <a href="/catalog/movies" className="nav-button">Películas</a>
+          <nav className="home-header__nav-links">
+            <a href="/" className="home-header__nav-button">Inicio</a>
+            <a href="/catalog/series" className="home-header__nav-button">Series</a>
+            <a href="/catalog/movies" className="home-header__nav-button">Películas</a>
             <input
               type="text"
-              className="search-bar"
+              className="home-header__search-bar"
               placeholder="Buscar por nombre..."
             />
           </nav>

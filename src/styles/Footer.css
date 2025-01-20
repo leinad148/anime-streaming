@@ -1,0 +1,27 @@
+/* Estilos del footer */
+.home-footer {
+    background-color: rgba(240, 240, 240, 0.9); /* Fondo similar al del header */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Esto asegura que el footer se quede en el fondo */
+  }
+  
+  .home-footer__content p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .home-footer__content p:first-child {
+    font-weight: bold;
+  }
+  
+  .home-footer__content p a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home-footer__content p a:hover {
+    color: #ff5722;
+  }

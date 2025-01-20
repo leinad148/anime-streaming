@@ -1,4 +1,3 @@
-// Home.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Home.css';
@@ -43,8 +42,8 @@ const Home = () => {
 
         {/* Texto principal */}
         <div className="welcome-content">
-          <h1 className="home-title">¡Bienvenido a AniStreaming!</h1>
-          <p className="home-description">La mejor plataforma para ver anime online.</p>
+          <h1 className="welcome-content__title">¡Bienvenido a AniStreaming!</h1>
+          <p className="welcome-content__description">La mejor plataforma para ver anime online.</p>
         </div>
       </div>
 

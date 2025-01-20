@@ -3,15 +3,15 @@
   background-color: #333;
   color: white;
   padding: 10px 20px;
-  position: fixed; /* Esto hace que se quede fijo al hacer scroll */
+  position: fixed; 
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+  z-index: 1000; 
 }
 
 /* Estilos para el logo */
-.home-header .logo a {
+.home-header__logo a {
   font-size: 24px;
   color: white;
   text-decoration: none;
@@ -19,25 +19,25 @@
 }
 
 /* Estilos para el menú de navegación */
-.nav-links {
+.home-header__nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.nav-button {
+.home-header__nav-button {
   margin: 0 10px;
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
 
-.nav-button:hover {
+.home-header__nav-button:hover {
   text-decoration: underline;
 }
 
 /* Estilos para la barra de búsqueda */
-.search-bar {
+.home-header__search-bar {
   padding: 5px 10px;
   font-size: 16px;
   border: none;
@@ -47,5 +47,5 @@
 
 /* Añadir un margen superior para que el contenido no quede tapado por el header fijo */
 .App {
-  padding-top: 60px; /* Ajustar según el tamaño del header */
+  padding-top: 60px; 
 }

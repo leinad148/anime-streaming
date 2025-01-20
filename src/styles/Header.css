@@ -1,0 +1,47 @@
+/* Estilos del header */
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(240, 240, 240, 0.9); /* Fondo gris claro */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .home-header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .home-header__logo a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home-header__nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-header__nav-button {
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .home-header__nav-button:hover {
+    color: #ff5722; /* Color de hover */
+  }
+  
+  .home-header__search-bar {
+    padding: 4px 6px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
